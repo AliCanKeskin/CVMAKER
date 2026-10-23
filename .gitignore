@@ -1,0 +1,29 @@
+# .NET build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Local IDE and user settings
+.vs/
+*.user
+*.suo
+.idea/
+
+# Frontend dependencies and generated bundles
+ClientApp/node_modules/
+ClientApp/.vite/
+.pnpm-store/
+
+# Local output and temporary files
+output/
+tmp/
+*.log
+
+# Local-only configuration
+appsettings.Development.json
+appsettings.*.local.json
+
+# OS files
+.DS_Store
+Thumbs.db

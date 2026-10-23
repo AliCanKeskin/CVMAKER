@@ -1,0 +1,20 @@
+{
+  "name": "ACK CV MAKER",
+  "short_name": "ACK CV",
+  "description": "Profesyonel CV oluşturun, PDF ve Word olarak indirin.",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f0e9",
+  "theme_color": "#183f70",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

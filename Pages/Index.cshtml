@@ -1,0 +1,16 @@
+@page
+@model IndexModel
+@{ ViewData["Title"] = "ACK CV MAKER — Profesyonel CV Oluşturucu"; }
+<div id="root"><div class="app-loading">CV stüdyosu hazırlanıyor…</div></div>
+<div id="photo-root"></div>
+<div id="theme-root"></div>
+<div id="install-root"></div>
+<div id="mobile-storage-root"></div>
+@section Scripts {
+  <script type="module" src="/dist/cv-app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js"));
+    }
+  </script>
+}
